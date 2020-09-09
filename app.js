@@ -309,3 +309,20 @@ catBack.classList.add("cabbage")
 
 //Remove class of cabbage
 catBack.classList.remove("cabbage")
+
+//Update class schedule to Fall 2018
+
+semester.textContent = "Fall 2018"
+
+//Buy more butter beer
+
+const moreButterBeer = document.createElement("li")
+
+moreButterBeer.textContent = "Butter Beer"
+
+//items.appendChild(moreButterBeer)
+
+cloak.before(moreButterBeer)
+
+//Rename storage container
+items.dataset.storage = "chest"
