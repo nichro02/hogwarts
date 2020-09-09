@@ -23,3 +23,22 @@ li {
     list-style-type: none;
     font-weight: normal;
 }
+
+table {
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    justify-content: center;
+}
+
+tr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+}
+
+td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+}

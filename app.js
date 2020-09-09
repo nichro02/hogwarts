@@ -46,7 +46,7 @@ container.appendChild(wand)
 
 
 //Add an unordered list of items
-const items = document.createElement("ol")
+const items = document.createElement("ul")
 
 items.textContent = "List of Items"
 
@@ -106,6 +106,129 @@ candy.textContent = "Bertie Bott's Every Flavor Beans"
 
 items.appendChild(candy)
 
+//Add a table
+const semester = document.createElement("h5")
 
+semester.textContent = "Spring 2017"
+
+container.appendChild(semester)
+
+//Create table
+
+const courses = document.createElement("table")
+
+container.appendChild(courses)
+
+//Add thead
+
+const thead = document.createElement("thead")
+
+courses.appendChild(thead)
+
+//Add th
+
+const th1 = document.createElement("th")
+
+th1.textContent = "Day"
+
+thead.appendChild(th1)
+
+const th2 = document.createElement("th")
+
+th2.textContent = "Classes"
+
+thead.appendChild(th2)
+
+//Add tr element
+
+const tr = document.createElement("tr")
+
+thead.appendChild(tr)
+
+//Set up day 1
+
+const day1 = document.createElement("td")
+
+day1.textContent = "Monday"
+
+tr.appendChild(day1)
+
+const day1Schedule = document.createElement("td")
+
+day1Schedule.textContent = "Herbology, Divination, History of Magic, Charms, Potions, Transfiguration, Defense Against the Dark Arts, Quidditch practice"
+
+tr.appendChild(day1Schedule)
+
+//Set up day 2
+
+const tr2 = document.createElement("tr")
+
+thead.appendChild(tr2)
+
+const day2 = document.createElement("td")
+
+day2.textContent = "Tuesday"
+
+tr2.appendChild(day2)
+
+const day2Schedule = document.createElement("td")
+
+day2Schedule.textContent = "Herbology, Divination, Astrology, Charms"
+
+tr2.appendChild(day2Schedule)
+
+//Set up day 3
+
+const tr3 = document.createElement("tr")
+
+thead.appendChild(tr3)
+
+const day3 = document.createElement("td")
+
+day3.textContent = "Wednesday"
+
+tr3.appendChild(day3)
+
+const day3Schedule = document.createElement("td")
+
+day3Schedule.textContent = "History of Muggle Politics, Care of Magical Creatures, Potions"
+
+tr3.appendChild(day3Schedule)
+
+//Set up day 4
+
+const tr4 = document.createElement("tr")
+
+thead.appendChild(tr4)
+
+const day4 = document.createElement("td")
+
+day4.textContent = "Thursday"
+
+tr4.appendChild(day4)
+
+const day4Schedule = document.createElement("td")
+
+day4Schedule.textContent = "History of Wizard Finance, Creative Writing,Defense Against the Dark Arts"
+
+tr4.appendChild(day4Schedule)
+
+//Set up day 5
+
+const tr5 = document.createElement("tr")
+
+thead.appendChild(tr5)
+
+const day5 = document.createElement("td")
+
+day5.textContent = "Friday"
+
+tr5.appendChild(day5)
+
+const day5Schedule = document.createElement("td")
+
+day5Schedule.textContent = "Work in the library, Warlock Economics, History of Magic, Quidditch practice"
+
+tr5.appendChild(day5Schedule)
 
 
