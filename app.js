@@ -231,4 +231,39 @@ day5Schedule.textContent = "Work in the library, Warlock Economics, History of M
 
 tr5.appendChild(day5Schedule)
 
+//Remove wand
+
+wand.remove()
+
+//Remove butter beer
+
+butterBeer.remove()
+
+//Get a new wand
+
+const newWand = document.createElement("h4")
+
+newWand.textContent = "Ironwood wand and Unicorn Hair string"
+
+h4.after(newWand)
+
+newWand.style.color = "gold"
+
+//Send pet on spy mission
+
+h4.remove()
+
+const hidingCat = document.getElementsByClassName("cat")[1]
+
+console.log(hidingCat)
+
+hidingCat.remove()
+
+const catBack = document.createElement("h4")
+
+catBack.className = "cat"
+
+catBack.textContent = "Momo"
+
+h3.after(catBack)
 
