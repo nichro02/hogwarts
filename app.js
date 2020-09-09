@@ -267,3 +267,45 @@ catBack.textContent = "Momo"
 
 h3.after(catBack)
 
+//Hide elements 
+//This will hide first item in class
+//querySelectorAll returns an array
+
+//const secrets = document.querySelector(".secret")
+
+const hide = () => {
+    const secrets = document.querySelector(".secret")
+    
+    secrets.style.visibility = "hidden"
+}
+
+const unhide = () => {
+    const secrets = document.querySelector(".secret")
+    
+    secrets.style.visibility = "visible"
+}
+
+//console.log(secrets)
+
+
+
+/*
+const secrets = document.querySelectorAll(".secret")
+
+console.log(secrets)
+
+let hide = document.querySelectorAll(".secret").textContent.style.display = "none"
+
+*/
+
+//Set timeout function
+
+setTimeout(hide, 0)
+setTimeout(unhide, 2000)
+
+//Add class of "cabbage" to pet's leash. Update .css to add chartreuse color to anything with cabbage class
+
+catBack.classList.add("cabbage")
+
+//Remove class of cabbage
+catBack.classList.remove("cabbage")
