@@ -6,3 +6,20 @@ body {
 .cat {
     font-family: fantasy;
 }
+
+ol {
+    padding: 0;
+}
+
+.list {
+    font-weight: bold;
+}
+
+.secret {
+    opacity: 0.5;
+}
+
+li {
+    list-style-type: none;
+    font-weight: normal;
+}
